@@ -2,6 +2,38 @@
 <html>
     <head>
         <title> welcome page</title>
+        <!-- Embadded style -->
+        <style>
+            th{
+               color: black;
+               background-color: whitesmoke;
+               font-size: 20px;
+               font-family: Arial, Helvetica, sans-serif;
+            }
+            td{
+                color: black;
+                text-align: center;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            a:hover{
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: black;
+                background-color: white;
+                text-align: center;
+            }
+            .yellowcolor{
+                background-color: yellow;
+            }
+            #BLUEColor{
+                background-color: blue;
+            }
+            .redColor{
+                background-color: red;
+            }
+
+        </style>
     </head>
     <body>
         <h1>welcome to our html</h1>
@@ -85,23 +117,23 @@
             <thead>
                 <tr>
                     <!-- in line style -->
-                    <th style="color:black; background-color: white;"> # </th>
-                    <th style="color: black; background-color: white;"> title </th>
-                    <th style="color: black; background-color: white;"> link </th>
+                    <th> # </th>
+                    <th> title </th>
+                    <th> link </th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
+                <tr id="BLUEColor">
                     <td> 1</td>
                     <td> installation</td>
                     <td> <a href="README.md"> <strong> Click Here</strong> </a></td>
                 </tr>
-                <tr>
+                <tr class="yellowcolor">
                     <td > 2</td>
                     <td> HTML</td>
                     <td> <a href="classess/class1.md"> <strong> Click Here</strong> </a></td>
                 </tr>
-                <tr>
+                <tr class="redColor">
                     <td> 3 </td>
                     <td> Forms</td>
                     <td> <a href="classess/class2.md"> <strong> Click Here</strong> </a></td>
