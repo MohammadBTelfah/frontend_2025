@@ -26,7 +26,8 @@ th{
  .redColor{
      background-color: red;
  }
-div{
+/* div{
+    margin: 30px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -37,7 +38,7 @@ div{
     text-indent: 2em;
     border-width: 50px;
     border-style: groove;
-}
+} */
 span:hover{
     font-size: 20px;
     color: brown;
@@ -47,7 +48,57 @@ span:hover{
     
 }
 body{
-    background-image: url(back.png);
+    background-image: url(/back.png);
     background-size: cover;
     background-attachment: fixed;
+}
+#testp {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    margin: 50px;
+    border: 3px yellow groove;
+    border-width: 50px;
+}
+#testbutton{
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    border: 3px red groove;
+    margin-left: 700px;
+}
+#firstdiv h1{
+    color:red;
+}
+#contenar{
+    text-align: center;
+    
+}
+#firstdiv,#seconddiv{
+    display: inline-block;
+    width: 45%;
+}
+#nav{
+    background-color: gray;
+    border-radius: 20px;
+}
+.item{
+    display: inline-block;
+    vertical-align: top;
+}
+#logo1{
+    width: 100px;
+    border-radius: 50px;
+    margin-left: 10px;
+
+}
+.item>ul{
+    list-style: none;
+    text-align: center;
+}
+.item>ul>li{
+display: inline-block;
+margin-left: 10px;
+
 }
