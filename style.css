@@ -1,0 +1,53 @@
+th{
+    color: black;
+    background-color: whitesmoke;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ td{
+     color: black;
+     text-align: center;
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ a:hover{
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: black;
+     background-color: white;
+     text-align: center;
+ }
+ .yellowcolor{
+     background-color: yellow;
+ }
+ #BLUEColor{
+     background-color: blue;
+ }
+ .redColor{
+     background-color: red;
+ }
+div{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: auto;
+    border: red;
+    text-decoration: dashed;
+    text-indent: 2em;
+    border-width: 50px;
+    border-style: groove;
+}
+span:hover{
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+    position: relative;
+    top: -0.2em;
+    
+}
+body{
+    background-image: url(back.png);
+    background-size: cover;
+    background-attachment: fixed;
+}

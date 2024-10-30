@@ -1,5 +1,7 @@
 [back](../README.md)
 
+# class 1
+
 in this class we learn about how to install github and how to create a github account and how to create a Repository and we learn about github command (init,commit,push,pull)
 
  and in this class we create a first **HTML Program** and we learn about **HTML content**(Head, body)
