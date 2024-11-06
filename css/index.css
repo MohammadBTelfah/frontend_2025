@@ -96,6 +96,7 @@ body{
 .item>ul{
     list-style: none;
     text-align: center;
+    justify-content: center;
 }
 .item>ul>li{
 display: inline-block;

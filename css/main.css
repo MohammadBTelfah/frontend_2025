@@ -1,0 +1,30 @@
+#Navbar{
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+#navlist{
+    list-style: none;
+}
+#navlist>li{
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 100px;
+}
+#logo{
+    width: 100px;
+    border-radius: 100px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.active{
+    color: green;
+}
+.link:hover{
+    color: blue;
+}
+#logo:hover {
+width:250px;
+}
