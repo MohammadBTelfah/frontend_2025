@@ -1,61 +1,53 @@
-#Navbar {
+#Navbar{
     background-color: gray;
     display: grid;
     grid-template-columns: 30% 70%;
-    align-items: center; /* Centers content vertically */
-    padding: 0 20px; /* Optional padding for better spacing */
 }
-
-#navlist {
+#navlist{
     list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex; /* Use flex layout for better alignment */
-    justify-content: flex-end; /* Aligns menu items to the right */
-    gap: 30px; /* Consistent spacing between items */
 }
-
-#navlist > li {
+#navlist>li{
+    display: inline-block;
     font-size: 25px;
+    margin-right: 100px;
 }
-
-#logo {
+#logo{
     width: 100px;
-    border-radius: 50%; /* More typical for circular shapes */
-    transition: width 0.3s; /* Smooth transition for hover effect */
+    border-radius: 100px;
 }
-
-.link {
+.link{
     text-decoration: none;
     color: white;
 }
-
-.active {
+.active{
     color: green;
 }
-
-.link:hover {
+.link:hover{
     color: blue;
 }
-
 #logo:hover {
-    width: 120px; /* Reduced hover effect to prevent layout distortion */
+width:250px;
 }
-
-#aria {
+#aria{
     text-align: center;
     display: grid;
-    grid-template-areas:
-        'aria1 aria1 aria1 aria1'
-        'aria2 aria3 aria3 aria4'
-        'aria2 aria3 aria3 aria4'
-        'aria2 aria5 aria5 aria5';
-    gap: 10px; /* Adds space between grid items */
-    padding: 20px; /* Adds padding around the grid */
+    grid-template-areas:'aria1 aria1 aria1 aria1'
+    'aria2 aria3 aria3 aria4'
+    'aria2 aria3 aria3 aria4'
+    'aria2 aria5 aria5 aria5';
 }
-
-#aria1 { grid-area: aria1; }
-#aria2 { grid-area: aria2; }
-#aria3 { grid-area: aria3; }
-#aria4 { grid-area: aria4; }
-#aria5 { grid-area: aria5; }
+#aria1{
+grid-area: aria1;
+}
+#aria2{
+grid-area: aria2;
+}
+#aria3{
+grid-area: aria3;
+}
+#aria4{
+grid-area: aria4;
+}
+#aria5{
+grid-area: aria5;
+}
