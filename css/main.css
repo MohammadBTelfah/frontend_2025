@@ -5,6 +5,7 @@
 }
 #navlist{
     list-style: none;
+    background-color: gray;
 }
 #navlist>li{
     display: inline-block;
@@ -31,14 +32,13 @@ width:250px;
 #aria{
     text-align: center;
     display: grid;
-    grid-template-areas:'aria1 aria1 aria1 aria1'
+    grid-template-areas:
     'aria2 aria3 aria3 aria4'
     'aria2 aria3 aria3 aria4'
+    'aria2 aria5 aria5 aria5'
     'aria2 aria5 aria5 aria5';
 }
-#aria1{
-grid-area: aria1;
-}
+
 #aria2{
 grid-area: aria2;
 }
@@ -51,3 +51,35 @@ grid-area: aria4;
 #aria5{
 grid-area: aria5;
 }
+#sidebar {
+    background-color: gray;
+    padding: 20px;
+    width: 100%;
+    height: 100px 
+}
+#navlist2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+}
+#navlist2 > li {
+    display: block;
+    font-size: 25px;
+    margin: 120px 0;
+    text-align: center;
+    
+}
+
+.link1 {
+    text-decoration: none;
+    color: white;
+}
+
+.link1:hover {
+    color: blue;
+}
+.active2{
+    color: green;
+}
+
