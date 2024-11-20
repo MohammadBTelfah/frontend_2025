@@ -29,4 +29,8 @@ for(let i =0; i<findP.length; i++){
     
     }
 }
-// task how to create p tag using js and add it
+             // task
+var pElem=document.createElement("p")
+pElem.innerHTML="<h1>this is new p element</h1>"
+document.body.appendChild(pElem)
+pElem.style.color="grey"
