@@ -34,10 +34,24 @@ var pElem=document.createElement("p")
 pElem.innerHTML="<h1>this is new p element</h1>"
 document.body.appendChild(pElem)
 pElem.style.color="grey"
+
 function summation(){
+    // task solve 
   var input1=document.getElementById("num1").value
   var input2=document.getElementById("num2").value
-  var z =parseInt(input1)+parseInt(input2)
+  var opreation=document.getElementById("op").value
+  var number1=parseInt(input1)
+  var number2=parseInt(input2)
+  var res
+  if(opreation=="+"){
+    res=number1+number2
+  }else if(opreation=="*"){
+    res=number1*number2
+  }else if(opreation=="-"){
+    res=number1-number2
+  }else if(opreation=="/"){
+    res=number1/number2
+  }
   var result =document.getElementById("sp")
-  result.innerHTML=z
+  result.innerHTML=res
 }
