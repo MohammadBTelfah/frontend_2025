@@ -34,3 +34,10 @@ var pElem=document.createElement("p")
 pElem.innerHTML="<h1>this is new p element</h1>"
 document.body.appendChild(pElem)
 pElem.style.color="grey"
+function summation(){
+  var input1=document.getElementById("num1").value
+  var input2=document.getElementById("num2").value
+  var z =parseInt(input1)+parseInt(input2)
+  var result =document.getElementById("sp")
+  result.innerHTML=z
+}
