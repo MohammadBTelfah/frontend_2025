@@ -1,34 +1,46 @@
-#Navbar{
-    background-color: white;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    box-shadow: white;
+.navbar-nav{
+    margin-left: 30%;
 }
-#navlist{
-    list-style: none;
-    background-color: white;
+#cont{
+    margin-right: 10%;
 }
-#navlist>li{
-    display: inline-block;
-    font-size: 15px;
-    margin-right: 100px;
-    align-items: center;
+#cont>svg{
+    margin-right: 10px;
+}
+#soical{
+    margin-right: 10%;
+}
+#soical>svg{
+    margin-right: 10px;
+}
+h3{
+    font-family: cursive;
+}
+.conter{
+text-align: center;
+justify-content: space-between;
+padding: 50px;
+background-color: #f9f9f9;
+width: 100vw; /* عرض العنصر بالكامل */
+height: 80vh; /* ارتفاع العنصر بالكامل */
 
-    
 }
-#logo{
-    width: 150px;
-    border-radius: 100px;
+.content{
+    width: 50%;
 }
-.mt{
-    background-color: #D3D3D3;
-}
-.tm{
-    margin-top: 5em;
-    margin-right: 5em;
+h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
 }
 #btn{
-    color: white;
     background-color: orangered;
+    color: white;
     font-size: 20px;
+}
+span{
+    margin-left: 10px;
+}
+#org{
+    color: orangered;
 }
