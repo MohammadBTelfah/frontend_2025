@@ -34,9 +34,10 @@
 .btn{
     color: white;
     background-color: orangered;
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 2%;
     border: none;
+    height: 50px;
 }
 .pcontainer{
     display: flex;
@@ -59,4 +60,19 @@
     max-width: 100%;
     max-height: 250px; 
     margin-bottom: 15px;
+}
+#t1{
+    grid-area: t1;
+}
+#t2{
+    grid-area: t2;
+}
+#t3{
+    grid-area: t3;
+    vertical-align: middle;
+}
+#cardcont{
+    display: grid;
+    grid-template-areas: "t1 t3"
+    "t2 t3";
 }
